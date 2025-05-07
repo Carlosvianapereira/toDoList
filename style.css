@@ -9,42 +9,45 @@ body{
 }
 
 .container{
-    background: white;
+    background: rgb(122, 149, 155);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgb (0,0,0,0.2);
-    width: 300px;
+    box-shadow: 0 5px 15px rgb(red, green, blue);
+    width: 400px;
 }
 
 h1 i{
-    nav-right: 8px;
+    nav-right: 5px;
     gap: 10px;
 }
 
 form{
     display: flex;
     gap: 10px;
-}
+}   
 
 input{
     flex: 1;
     padding: 10px ;
+    background-color: rgb(0, 255, 106);
 }
 
 button{
     padding: 10px;
+    color: brown;
+    background: black;
 
 }
 ul{
     list-style: nome;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 li{
     background: #eee;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 5  px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,5 +56,5 @@ li{
 
 li.done{
     text-decoration: line-through;
-    color: gray;
+    color: rgb(20, 1, 1);
 }
