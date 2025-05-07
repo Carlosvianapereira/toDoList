@@ -57,12 +57,12 @@ form.addEventListener("submit", function (e) {
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "❌";
-  deleteBtn.addEventListener("click", () => li.remove());
+  deleteBtn.addEventListener("click",()=> li.remove());
 
   li.appendChild(checkbox);
   li.appendChild(span);
   li.appendChild(deleteBtn);
 
   list.appendChild(li);
-  input.value = "";
+  input.value ="";
 });

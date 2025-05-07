@@ -12,8 +12,8 @@ body{
     background: rgb(122, 149, 155);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgb(red, green, blue);
-    width: 400px;
+    box-shadow: 0 15px 15px rgb(red, green, blue);
+    width: 250px;
 }
 
 h1 i{
@@ -33,7 +33,7 @@ input{
 }
 
 button{
-    padding: 10px;
+    padding: 1px;
     color: brown;
     background: black;
 
